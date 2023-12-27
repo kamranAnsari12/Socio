@@ -1,0 +1,14 @@
+.horizontalList {
+  list-style: none;
+  display: flex;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.listItem {
+  padding: 5px;
+}
+.listItem:hover {
+  color: #ff9c00;
+}
