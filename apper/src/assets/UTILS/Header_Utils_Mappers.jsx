@@ -20,7 +20,7 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 
-const Header_Utils_Mappers = (Items) => {
+const Header_Utils_Mappers = ({Items}) => {
   return (
     <>
       <div>

@@ -65,9 +65,9 @@ const Items = [
 const Courses_details_Header = () => {
   return (
     <>
-      
+        <Grid container >
         <Header_Utils_Mappers Items={Items} />
-        
+        </Grid>
     
     </>
   );
