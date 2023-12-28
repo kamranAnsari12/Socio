@@ -1,11 +1,17 @@
 import React from 'react'
-import {Box,Button} from "@mui/material";
+import {Box,Button, Grid} from "@mui/material";
+import Logo from './Logo.jsx';
+import Courses_details_Header from './Courses_details_Header.jsx';
 const Headers = () => {
   return (
    <>
    <Box sx={{bgcolor:'#414141',color:'white'}}>
-    <Button> this is Button</Button>
-   this is Header
+   <Grid container spacing={1}>
+    <Grid item xs={1}> <Logo/></Grid>
+    <Grid item xs={9}> <Courses_details_Header/></Grid>
+    <Grid item xs={2}> logs/sing</Grid>
+     
+   </Grid>  
    </Box>
    </>
   )
